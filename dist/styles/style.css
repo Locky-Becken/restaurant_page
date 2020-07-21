@@ -1,0 +1,136 @@
+/* GLOBAIS */
+*{
+    margin: 0;
+}
+
+@font-face{
+    font-family: Breath;
+    src: url('/dist/styles/Breathe/Breathe-Press.ttf');
+}
+body{
+    width: 100%;
+    height: 100%;
+
+    background-color: white;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+/* header.js */
+#content header{
+    display: grid;
+    grid-template-rows: auto 34px;
+    color: white;
+
+    height: 70vh;
+    width: 100%;
+
+    background-position: center;
+
+    background-image: url('../images/the-dead-rabbit-nova-york-melhores-bares-do-mundo.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+
+
+    margin-bottom: 20px;
+
+    font-family: Breath;
+}
+
+header h1{
+    text-align: center;
+
+    justify-self: center;
+    align-self: center;
+
+    font-size: 100px;
+}
+
+header #nav-div{
+    align-self: flex-end;
+    font-size: 30px;
+
+    display: flex;
+    justify-content: center;
+}
+
+#nav-div a{
+    box-sizing: border-box;
+    padding: 5px 0;
+
+    width: 200px;
+    height: 50px;
+
+    text-align: center;
+
+    font-size: 1em;
+}
+
+a:hover{
+    background-color: white;
+
+    border-radius: 6px 6px 0 0;
+
+    color: black;
+}
+
+/* about.js */
+
+#content main{
+    display: block;
+    
+    margin: 100px auto;
+
+    width: 800px;
+
+    font-family: 'Roboto', sans-serif;
+
+    text-indent: 50px;
+}
+
+/* home.js */
+#main-2 .img-wrapper{
+    display: flex;
+    margin: 40px;
+}
+
+.img-wrapper img{
+    width: 600px;
+    height: 400px;
+
+    margin: auto;
+}
+
+.img-wrapper .text-part{
+    width: 600px;
+
+    display: block;
+
+    margin: auto 0;
+      
+    text-indent: 50px;
+}
+
+/* menu.js*/
+
+#content #menu {
+    display: grid;
+    grid-template-columns: 400px 400px;
+
+    justify-content: center;
+
+    text-align: center;
+}
+
+#menu .menu-item{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.menu-item p{
+    font-size: 2em;
+    font-family: Breath;
+}
